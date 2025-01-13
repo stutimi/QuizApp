@@ -1,0 +1,95 @@
+Issues in the Code
+No Validation for Unanswered Questions:
+
+If a user skips a question, the app doesn’t handle it gracefully. It simply marks it as incorrect.
+
+Fix: Add validation to ensure all questions are answered before submitting.
+
+No Feedback on Correct/Incorrect Answers:
+
+After submitting, the user only sees their score but doesn’t know which questions they got wrong.
+
+Fix: Highlight correct and incorrect answers after submission.
+
+No Timer:
+
+The quiz doesn’t have a time limit, which could make it less challenging.
+
+Fix: Add a countdown timer for each question or the entire quiz.
+
+Static Questions:
+
+The questions are hardcoded and cannot be dynamically loaded (e.g., from an API).
+
+Fix: Fetch questions from an API or a JSON file.
+
+No Randomization:
+
+The questions and options are always displayed in the same order.
+
+Fix: Randomize the order of questions and options.
+
+No Progress Indicator:
+
+The user doesn’t know how many questions are left or their current progress.
+
+Fix: Add a progress bar or a counter (e.g., "Question 3 of 10").
+
+No Local Storage for High Scores:
+
+The app doesn’t save high scores or previous attempts.
+
+Fix: Use localStorage to save and display high scores.
+
+No Responsive Design:
+
+The app may not look good on smaller screens.
+
+Fix: Add responsive CSS for mobile devices.
+
+No Option to Restart:
+
+Once the quiz is submitted, the user cannot restart without refreshing the page.
+
+Fix: Add a "Restart Quiz" button.
+
+No Accessibility Features:
+
+The app lacks accessibility features like keyboard navigation or ARIA labels.
+
+Fix: Add accessibility improvements for better usability.
+
+Suggested Improvements
+Add Feedback for Correct/Incorrect Answers:
+
+After submitting, highlight the correct answers and show which ones the user got wrong.
+
+Add a Timer:
+
+Implement a countdown timer for each question or the entire quiz.
+
+Randomize Questions and Options:
+
+Shuffle the order of questions and options to make the quiz more dynamic.
+
+Add a Progress Indicator:
+
+Show the user their progress (e.g., "Question 3 of 10").
+
+Save High Scores:
+
+Use localStorage to save and display high scores.
+
+Make the App Responsive:
+
+Add media queries to ensure the app looks good on all screen sizes.
+
+Add a Restart Button:
+
+Allow users to restart the quiz without refreshing the page.
+
+Fetch Questions from an API:
+
+Load questions dynamically from an external source.
+
+Example of a New Feature: Highl
