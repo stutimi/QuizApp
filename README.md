@@ -17,7 +17,7 @@ A fun and interactive **Quiz App** . Test your knowledge on various topics with 
 
 4. ### Navigate to the Project Directory:
 
-       cd QuizApp/index.html
+       cd QuizApp
        
 
 6. ### Open Live Server:
