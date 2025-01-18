@@ -18,16 +18,24 @@ A fun and interactive **Quiz App** . Test your knowledge on various topics with 
 4. ### Navigate to the Project Directory:
 
        cd QuizApp
+
+
+5. ### Create a new branch
+
+        git branch issue/issuename
+
+6. ### Switch to new branch
+        git checkout branchname
        
 
-6. ### Open Live Server:
+7. ### Open Live Server:
 
    
 
-7. ### Your Application will be started
+8. ### Your Application will be started
 
 
-8. ### Start Contributing:
+9. ### Start Contributing:
 
  - Check out the [CONTRIBUTING.md](https://github.com/programming-club-knit/QuizApp/blob/main/CONTRIBUTING.md)
 
